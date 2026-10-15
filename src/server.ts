@@ -4,7 +4,7 @@ import { CONFIG } from "./config/env.config.js";
 const app = createApp();
 const port = CONFIG.port;
 
-const server = app.listen(port, () => {
+const server = app.listen(port, "0.0.0.0", () => {
   console.log(`\n======================================================`);
   console.log(`  J.T. Kent's Repertory RAG & Clinical Assistant API`);
   console.log(`======================================================`);
