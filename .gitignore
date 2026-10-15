@@ -6,7 +6,7 @@ dist/
 
 # Local databases and caches
 kent_vector_cache/
-kent_lancedb/
+# kent_lancedb/
 kent_output/
 
 
