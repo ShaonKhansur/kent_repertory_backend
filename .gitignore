@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+
+# Production build artifacts
+dist/
+
+# Local databases and caches
+kent_vector_cache/
+kent_lancedb/
+kent_output/
+
+
+# Legacy raw scraped data (already parsed into kent_output)
+kent_raw_html/
+kent_output/
+
+
+# System & Editor
+.DS_Store
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.env
+.env.local

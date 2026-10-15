@@ -1,0 +1,147 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "J.T. Kent's Repertory Vector Search & Clinical Repertorization API",
+    "version": "1.0.0",
+    "description": "High-performance local vector database (LanceDB) and deterministic homeopathic repertorization REST API based on J.T. Kent's Repertory (1,423 pages, 78,926 atomic rubrics). Zero generative LLM overhead."
+  },
+  "servers": [
+    {
+      "url": "http://localhost:3000",
+      "description": "Local Development Server"
+    }
+  ],
+  "paths": {
+    "/api/health": {
+      "get": {
+        "summary": "Check system and search engine health",
+        "description": "Returns pre-flight diagnostic status including dataset presence, in-process neural embedder readiness, and local LanceDB status.",
+        "responses": {
+          "200": {
+            "description": "System is healthy and all models are ready."
+          },
+          "503": {
+            "description": "Service is unhealthy or models are missing."
+          }
+        }
+      }
+    },
+    "/api/search": {
+      "post": {
+        "summary": "Search repertory rubrics",
+        "description": "Retrieves matched rubrics using hybrid vector similarity (nomic-embed-text) and Kentian keyword matching. Returns exact page numbers, author, source URLs, graded remedies, and immediate child sub-rubrics.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "required": ["query"],
+                "properties": {
+                  "query": {
+                    "type": "string",
+                    "example": "forsaken feeling in the evening"
+                  },
+                  "chapters": {
+                    "type": "array",
+                    "items": { "type": "string" },
+                    "description": "List of chapters to search, or ['all'] for all chapters",
+                    "example": ["Mind", "Head"]
+                  },
+                  "chapter": {
+                    "type": "string",
+                    "description": "Single chapter name (backward compatible)",
+                    "example": "Mind"
+                  },
+                  "topK": {
+                    "type": "integer",
+                    "default": 10,
+                    "example": 10
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "List of matched rubrics."
+          },
+          "400": {
+            "description": "Invalid query parameters."
+          }
+        }
+      }
+    },
+    "/api/clarify": {
+      "post": {
+        "summary": "Generate child sub-rubric clarifying questions",
+        "description": "Inspects immediate child sub-rubrics (depth + 1) in Kent's hierarchy to formulate clinical clarifying questions regarding modalities, time, or location with deterministic homeopathic precision.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "rubric_id": {
+                    "type": "string",
+                    "example": "kent_mind_002775"
+                  },
+                  "rubric_path": {
+                    "type": "string",
+                    "example": "Mind > FORSAKEN feeling"
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Clarifying questions with child sub-rubric breakdown."
+          },
+          "404": {
+            "description": "Rubric not found."
+          }
+        }
+      }
+    },
+    "/api/repertorize": {
+      "post": {
+        "summary": "Calculate deterministic repertorization matrix",
+        "description": "Calculates exact remedy scores by summing grades (Grade 3 = 3, Grade 2 = 2, Grade 1 = 1) and counting rubric coverage. Never approximates math.",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "rubric_ids": {
+                    "type": "array",
+                    "items": { "type": "string" },
+                    "example": ["kent_mind_002775", "kent_mind_002777"]
+                  },
+                  "rubric_paths": {
+                    "type": "array",
+                    "items": { "type": "string" },
+                    "example": ["Mind > FORSAKEN feeling", "Mind > FORSAKEN feeling > evening"]
+                  }
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Deterministic remedy ranking matrix."
+          },
+          "400": {
+            "description": "No rubrics provided."
+          }
+        }
+      }
+    }
+  }
+}
