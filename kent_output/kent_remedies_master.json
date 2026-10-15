@@ -1,0 +1,2602 @@
+[
+  {
+    "abbr": "Abies-c.",
+    "full_name": "Abies Canadensis"
+  },
+  {
+    "abbr": "Abies-n.",
+    "full_name": "Abies Nigra"
+  },
+  {
+    "abbr": "Abrot.",
+    "full_name": "Abrotanum"
+  },
+  {
+    "abbr": "Absin.",
+    "full_name": "Absinthium"
+  },
+  {
+    "abbr": "Acal.",
+    "full_name": "Acalypha Indica"
+  },
+  {
+    "abbr": "Acet-ac.",
+    "full_name": "Acetic Acid."
+  },
+  {
+    "abbr": "Acon-c.",
+    "full_name": "Aconitum Cammarum"
+  },
+  {
+    "abbr": "Acon-f.",
+    "full_name": "Aconitum Ferox"
+  },
+  {
+    "abbr": "Acon-l.",
+    "full_name": "Aconitum Lycotonum"
+  },
+  {
+    "abbr": "Acon.",
+    "full_name": "Aconitum Napellus"
+  },
+  {
+    "abbr": "Act-sp.",
+    "full_name": "Actæa Spicata"
+  },
+  {
+    "abbr": "Æsc-g.",
+    "full_name": "Æsculus Glabra"
+  },
+  {
+    "abbr": "Æsc.",
+    "full_name": "Æsculus Hippocastanum"
+  },
+  {
+    "abbr": "Æth.",
+    "full_name": "Æthusa Cynapium"
+  },
+  {
+    "abbr": "Agar-em.",
+    "full_name": "Agaricus Emeticus"
+  },
+  {
+    "abbr": "Agar-ph.",
+    "full_name": "Agaricus Phalloides"
+  },
+  {
+    "abbr": "Agar.",
+    "full_name": "Agaricus Muscarius"
+  },
+  {
+    "abbr": "Agn.",
+    "full_name": "Agnus Castus"
+  },
+  {
+    "abbr": "Ail.",
+    "full_name": "Ailanthus"
+  },
+  {
+    "abbr": "Alco.",
+    "full_name": "Alcohol"
+  },
+  {
+    "abbr": "Alet.",
+    "full_name": "Aletris Farinosa"
+  },
+  {
+    "abbr": "All-c.",
+    "full_name": "Allium Cepa"
+  },
+  {
+    "abbr": "All-s.",
+    "full_name": "Allium Sativum"
+  },
+  {
+    "abbr": "Aloe.",
+    "full_name": "Aloe Socotrina"
+  },
+  {
+    "abbr": "Alst.",
+    "full_name": "Alstonia Constricta"
+  },
+  {
+    "abbr": "Alum-m.",
+    "full_name": "Aluminium Metallicum"
+  },
+  {
+    "abbr": "Alum-sil.",
+    "full_name": "Alumina Silicata"
+  },
+  {
+    "abbr": "Alum.",
+    "full_name": "Alumina"
+  },
+  {
+    "abbr": "Alumn.",
+    "full_name": "Alumen"
+  },
+  {
+    "abbr": "Am-be.",
+    "full_name": "Ammonium Benzoicum"
+  },
+  {
+    "abbr": "Am-br.",
+    "full_name": "Ammonium Bromatum"
+  },
+  {
+    "abbr": "Am-c.",
+    "full_name": "Ammonium Carbonicum"
+  },
+  {
+    "abbr": "Am-caust.",
+    "full_name": "Ammonium Causticum"
+  },
+  {
+    "abbr": "Am-m.",
+    "full_name": "Ammonium Muriaticum"
+  },
+  {
+    "abbr": "Ambr.",
+    "full_name": "Ambra Grisea"
+  },
+  {
+    "abbr": "Ambro.",
+    "full_name": "Ambrosia Artemisiæ folia"
+  },
+  {
+    "abbr": "Aml-n.",
+    "full_name": "Amyl Nitrite"
+  },
+  {
+    "abbr": "Ammc.",
+    "full_name": "Ammoniacum Gummi"
+  },
+  {
+    "abbr": "Amph.",
+    "full_name": "Amphisbœna"
+  },
+  {
+    "abbr": "Amyg.",
+    "full_name": "Amygdalæ Amaræ Aqua"
+  },
+  {
+    "abbr": "Anac-oc.",
+    "full_name": "Anacardium Occidentale"
+  },
+  {
+    "abbr": "Anac.",
+    "full_name": "Anacardium Orientale"
+  },
+  {
+    "abbr": "Anag.",
+    "full_name": "Anagallis Arvensis"
+  },
+  {
+    "abbr": "Anan.",
+    "full_name": "Anantherum Muricatum"
+  },
+  {
+    "abbr": "Ang.",
+    "full_name": "Angustura Vera"
+  },
+  {
+    "abbr": "Anil.",
+    "full_name": "Anilinum"
+  },
+  {
+    "abbr": "Anis.",
+    "full_name": "Anisum Stellatum"
+  },
+  {
+    "abbr": "Ant-a.",
+    "full_name": "Antimonium Arsenicosum"
+  },
+  {
+    "abbr": "Ant-c.",
+    "full_name": "Antimonium Crudum"
+  },
+  {
+    "abbr": "Ant-chl.",
+    "full_name": "Antimonium Chloridum"
+  },
+  {
+    "abbr": "Ant-ox.",
+    "full_name": "Antimonium Oxydatum"
+  },
+  {
+    "abbr": "Ant-s.",
+    "full_name": "Antimonium Sulph. Auratum"
+  },
+  {
+    "abbr": "Ant-t.",
+    "full_name": "Antimonium Tartaricum"
+  },
+  {
+    "abbr": "Anth.",
+    "full_name": "Anthemis Nobilis"
+  },
+  {
+    "abbr": "Anthr.",
+    "full_name": "Anthracinum"
+  },
+  {
+    "abbr": "Anthro.",
+    "full_name": "Anthrokokali"
+  },
+  {
+    "abbr": "Ap-g.",
+    "full_name": "Apium Graveolens"
+  },
+  {
+    "abbr": "Aphis.",
+    "full_name": "Aphis Chenopodii glauci"
+  },
+  {
+    "abbr": "Apis.",
+    "full_name": "Apis Mellifica"
+  },
+  {
+    "abbr": "Apoc-a.",
+    "full_name": "Apocynum Androsæmifolium"
+  },
+  {
+    "abbr": "Apoc.",
+    "full_name": "Apocynum Cannabinum"
+  },
+  {
+    "abbr": "Apom.",
+    "full_name": "Apomorphium"
+  },
+  {
+    "abbr": "Aral.",
+    "full_name": "Aralia Racemosa"
+  },
+  {
+    "abbr": "Aran-s.",
+    "full_name": "Aranea Scinencia"
+  },
+  {
+    "abbr": "Aran.",
+    "full_name": "Aranea Diadema"
+  },
+  {
+    "abbr": "Arg-c.",
+    "full_name": "Argentum Cyanidum"
+  },
+  {
+    "abbr": "Arg-m.",
+    "full_name": "Argentum Metallicum"
+  },
+  {
+    "abbr": "Arg-mur.",
+    "full_name": "Argentum Muriaticum"
+  },
+  {
+    "abbr": "Arg-n.",
+    "full_name": "Argentum Nitricum"
+  },
+  {
+    "abbr": "Arn.",
+    "full_name": "Arnica Montana"
+  },
+  {
+    "abbr": "Ars-h.",
+    "full_name": "Arsenicum Hydrogenisatum"
+  },
+  {
+    "abbr": "Ars-i.",
+    "full_name": "Arsenicum Iodatum"
+  },
+  {
+    "abbr": "Ars-m.",
+    "full_name": "Arsenicum Metallicum"
+  },
+  {
+    "abbr": "Ars-n.",
+    "full_name": "Arsenicum Nitricum"
+  },
+  {
+    "abbr": "Ars-s-f.",
+    "full_name": "Arsenicum Sulphuratum Flavum"
+  },
+  {
+    "abbr": "Ars-s-r.",
+    "full_name": "Arsenicum Sulphuratum Rubrum"
+  },
+  {
+    "abbr": "Ars.",
+    "full_name": "Arsenicum Album"
+  },
+  {
+    "abbr": "Art-v.",
+    "full_name": "Artemisia Vulgaris"
+  },
+  {
+    "abbr": "Arum-d.",
+    "full_name": "Arum Dracontium"
+  },
+  {
+    "abbr": "Arum-i.",
+    "full_name": "Arum Italicum"
+  },
+  {
+    "abbr": "Arum-m.",
+    "full_name": "Arum Maculatum"
+  },
+  {
+    "abbr": "Arum-t.",
+    "full_name": "Arum Triphyllum"
+  },
+  {
+    "abbr": "Arund-d.",
+    "full_name": "Arundo Donax"
+  },
+  {
+    "abbr": "Arund.",
+    "full_name": "Arundo Mauritanica"
+  },
+  {
+    "abbr": "Asaf.",
+    "full_name": "Asa Fœtida"
+  },
+  {
+    "abbr": "Asar.",
+    "full_name": "Asarum Europæum"
+  },
+  {
+    "abbr": "Asc-c.",
+    "full_name": "Asclepias Cornuti (Syriaca)"
+  },
+  {
+    "abbr": "Asc-t.",
+    "full_name": "Asclepias Tuberosa"
+  },
+  {
+    "abbr": "Asim.",
+    "full_name": "Asimina Triloba"
+  },
+  {
+    "abbr": "Aspar.",
+    "full_name": "Asparagus Officinalis"
+  },
+  {
+    "abbr": "Astac.",
+    "full_name": "Astacus Fluviatilis"
+  },
+  {
+    "abbr": "Aster.",
+    "full_name": "Asterias Rubens"
+  },
+  {
+    "abbr": "Atro-s.",
+    "full_name": "Atropia Sulphurica"
+  },
+  {
+    "abbr": "Atro.",
+    "full_name": "Atropinium"
+  },
+  {
+    "abbr": "Aur-a.",
+    "full_name": "Aurum Arsenicum"
+  },
+  {
+    "abbr": "Aur-i.",
+    "full_name": "Aurum Iodatum"
+  },
+  {
+    "abbr": "Aur-m-n.",
+    "full_name": "Aurum Muriaticum Natronatum"
+  },
+  {
+    "abbr": "Aur-m.",
+    "full_name": "Aurum Muriaticum"
+  },
+  {
+    "abbr": "Aur-s.",
+    "full_name": "Aurum Sulphuratum"
+  },
+  {
+    "abbr": "Aur.",
+    "full_name": "Aurum Metallicum"
+  },
+  {
+    "abbr": "Bad.",
+    "full_name": "Badiaga"
+  },
+  {
+    "abbr": "Bals.",
+    "full_name": "Balsamum Peruvianum"
+  },
+  {
+    "abbr": "Bapt.",
+    "full_name": "Baptisia Tinctoria"
+  },
+  {
+    "abbr": "Bar-ac.",
+    "full_name": "Baryta Acetica"
+  },
+  {
+    "abbr": "Bar-c.",
+    "full_name": "Baryta Carbonica"
+  },
+  {
+    "abbr": "Bar-i.",
+    "full_name": "Baryta Iodata"
+  },
+  {
+    "abbr": "Bar-m.",
+    "full_name": "Baryta Muriatica"
+  },
+  {
+    "abbr": "Bart.",
+    "full_name": "Bartfelder (acid spring)"
+  },
+  {
+    "abbr": "Bell-p.",
+    "full_name": "Bellis Perennis"
+  },
+  {
+    "abbr": "Bell.",
+    "full_name": "Belladonna"
+  },
+  {
+    "abbr": "Benz-ac.",
+    "full_name": "Benzoic Acid."
+  },
+  {
+    "abbr": "Benz-n.",
+    "full_name": "Benzinum Nitricum"
+  },
+  {
+    "abbr": "Benz.",
+    "full_name": "Benzinum"
+  },
+  {
+    "abbr": "Berb.",
+    "full_name": "Berberis Vulgaris"
+  },
+  {
+    "abbr": "Bism-ox.",
+    "full_name": "Bismuthum Oxidum"
+  },
+  {
+    "abbr": "Blat.",
+    "full_name": "Blatta Americana"
+  },
+  {
+    "abbr": "Blatta.",
+    "full_name": "Blatta Orientalis"
+  },
+  {
+    "abbr": "Bol.",
+    "full_name": "Boletus Laricis"
+  },
+  {
+    "abbr": "Bor-ac.",
+    "full_name": "Boracicum Acidum"
+  },
+  {
+    "abbr": "Bor.",
+    "full_name": "Borax"
+  },
+  {
+    "abbr": "Both.",
+    "full_name": "Bothrops Lanceolatus"
+  },
+  {
+    "abbr": "Bov.",
+    "full_name": "Bovista"
+  },
+  {
+    "abbr": "Brach.",
+    "full_name": "Brachyglottis Repens"
+  },
+  {
+    "abbr": "Brom.",
+    "full_name": "Bromium"
+  },
+  {
+    "abbr": "Bruc.",
+    "full_name": "Brucea Antidysenterica"
+  },
+  {
+    "abbr": "Bry.",
+    "full_name": "Bryonia Alba"
+  },
+  {
+    "abbr": "Bufo-s.",
+    "full_name": "Bufo Sahytiensis"
+  },
+  {
+    "abbr": "Bufo.",
+    "full_name": "Bufo Rana."
+  },
+  {
+    "abbr": "Cact.",
+    "full_name": "Cactus Grandiflorus"
+  },
+  {
+    "abbr": "Cadm.",
+    "full_name": "Cadmium Sulphuratum"
+  },
+  {
+    "abbr": "Cahin.",
+    "full_name": "Cahinca"
+  },
+  {
+    "abbr": "Cain.",
+    "full_name": "Cainca"
+  },
+  {
+    "abbr": "Caj.",
+    "full_name": "Cajuputum"
+  },
+  {
+    "abbr": "Calad.",
+    "full_name": "Caladium Seguinum"
+  },
+  {
+    "abbr": "Calc-ac.",
+    "full_name": "Calcarea Acetica"
+  },
+  {
+    "abbr": "Calc-ar.",
+    "full_name": "Calcarea Arsenica"
+  },
+  {
+    "abbr": "Calc-caust.",
+    "full_name": "Calcarea Caustica"
+  },
+  {
+    "abbr": "Calc-f.",
+    "full_name": "Calcarea Fluorata"
+  },
+  {
+    "abbr": "Calc-i.",
+    "full_name": "Calcarea Iodata"
+  },
+  {
+    "abbr": "Calc-p.",
+    "full_name": "Calcarea Phosphorica"
+  },
+  {
+    "abbr": "Calc-s.",
+    "full_name": "Calcarea Sulphurica"
+  },
+  {
+    "abbr": "Calc-sil.",
+    "full_name": "Calcarea Silicata"
+  },
+  {
+    "abbr": "Calc.",
+    "full_name": "Calcarea Carbonica"
+  },
+  {
+    "abbr": "Calen.",
+    "full_name": "Calendula Officinalis"
+  },
+  {
+    "abbr": "Calli.",
+    "full_name": "Calliandra Houstoni"
+  },
+  {
+    "abbr": "Calo.",
+    "full_name": "Calotropis Gigantea"
+  },
+  {
+    "abbr": "Calt.",
+    "full_name": "Caltha Palustris"
+  },
+  {
+    "abbr": "Camph.",
+    "full_name": "Camphora Officinarum"
+  },
+  {
+    "abbr": "Canch.",
+    "full_name": "Canchalagua"
+  },
+  {
+    "abbr": "Cann-i.",
+    "full_name": "Cannabis Indica"
+  },
+  {
+    "abbr": "Cann-s.",
+    "full_name": "Cannabis Sativa"
+  },
+  {
+    "abbr": "Canth.",
+    "full_name": "Cantharis"
+  },
+  {
+    "abbr": "Caps.",
+    "full_name": "Capsicum"
+  },
+  {
+    "abbr": "Carb-ac.",
+    "full_name": "Carbolic Acid."
+  },
+  {
+    "abbr": "Carb-an.",
+    "full_name": "Carbo Animalis"
+  },
+  {
+    "abbr": "Carb-h.",
+    "full_name": "Carboneum Hydrogenisatum"
+  },
+  {
+    "abbr": "Carb-o.",
+    "full_name": "Carboneum Oxygenisatum"
+  },
+  {
+    "abbr": "Carb-s.",
+    "full_name": "Carboneum Sulphuratum"
+  },
+  {
+    "abbr": "Carb-v.",
+    "full_name": "Carbo Vegetabilis"
+  },
+  {
+    "abbr": "Card-b.",
+    "full_name": "Carduus Benedictus"
+  },
+  {
+    "abbr": "Card-m.",
+    "full_name": "Carduus Marianus"
+  },
+  {
+    "abbr": "Carl.",
+    "full_name": "Carlsbad"
+  },
+  {
+    "abbr": "Casc.",
+    "full_name": "Cascarilla"
+  },
+  {
+    "abbr": "Cast-eq.",
+    "full_name": "Castor Equi"
+  },
+  {
+    "abbr": "Cast-v.",
+    "full_name": "Castanea Vesca"
+  },
+  {
+    "abbr": "Cast.",
+    "full_name": "Castoreum"
+  },
+  {
+    "abbr": "Caul.",
+    "full_name": "Caulophyllum Thalictroides"
+  },
+  {
+    "abbr": "Caust.",
+    "full_name": "Causticum"
+  },
+  {
+    "abbr": "Cean.",
+    "full_name": "Ceanothus Americanus"
+  },
+  {
+    "abbr": "Cedr.",
+    "full_name": "Cedron"
+  },
+  {
+    "abbr": "Cench.",
+    "full_name": "Cenchris Contortrix"
+  },
+  {
+    "abbr": "Cent.",
+    "full_name": "Centaurea Tagana"
+  },
+  {
+    "abbr": "Cer-s.",
+    "full_name": "Cereus Serpentaria"
+  },
+  {
+    "abbr": "Cere-b.",
+    "full_name": "Cereus Bonplandii"
+  },
+  {
+    "abbr": "Cet.",
+    "full_name": "Cetrararia Islandica"
+  },
+  {
+    "abbr": "Cham.",
+    "full_name": "Chamomilla"
+  },
+  {
+    "abbr": "Chel.",
+    "full_name": "Chelidonium Majus"
+  },
+  {
+    "abbr": "Chen-an.",
+    "full_name": "Chenopodium Anthelminticum"
+  },
+  {
+    "abbr": "Chen-v.",
+    "full_name": "Chenopodium Vulvaria"
+  },
+  {
+    "abbr": "Chen.",
+    "full_name": "Chenopodium Glauci Aphis"
+  },
+  {
+    "abbr": "Chim-m.",
+    "full_name": "Chimaphila Maculata"
+  },
+  {
+    "abbr": "Chim.",
+    "full_name": "Chimaphila Umbellata"
+  },
+  {
+    "abbr": "Chin-a.",
+    "full_name": "Chininum Arsenicosum"
+  },
+  {
+    "abbr": "Chin-b.",
+    "full_name": "Chininum Brom."
+  },
+  {
+    "abbr": "Chin-s.",
+    "full_name": "Chininum Sulphuricum"
+  },
+  {
+    "abbr": "Chin.",
+    "full_name": "China Officinalis"
+  },
+  {
+    "abbr": "Chion.",
+    "full_name": "Chionanthus Virginica"
+  },
+  {
+    "abbr": "Chlf.",
+    "full_name": "Chloroformium"
+  },
+  {
+    "abbr": "Chlol.",
+    "full_name": "Chloralum"
+  },
+  {
+    "abbr": "Chlor.",
+    "full_name": "Chlorum"
+  },
+  {
+    "abbr": "Chol.",
+    "full_name": "Cholesterinum"
+  },
+  {
+    "abbr": "Chr-ac.",
+    "full_name": "Chromicum Acidum"
+  },
+  {
+    "abbr": "Chr-ox.",
+    "full_name": "Chromicum Oxydatum"
+  },
+  {
+    "abbr": "Cic.",
+    "full_name": "Cicuta Virosa"
+  },
+  {
+    "abbr": "Cimic.",
+    "full_name": "Cimicifuga Racemosa"
+  },
+  {
+    "abbr": "Cimx.",
+    "full_name": "Cimex"
+  },
+  {
+    "abbr": "Cina.",
+    "full_name": "Cina"
+  },
+  {
+    "abbr": "Cinch-b.",
+    "full_name": "Cinchona Boliviana"
+  },
+  {
+    "abbr": "Cinch.",
+    "full_name": "Cinchonium Sulphuricum"
+  },
+  {
+    "abbr": "Cinnam.",
+    "full_name": "Cinnamomum"
+  },
+  {
+    "abbr": "Cinnb.",
+    "full_name": "Cinnabaris"
+  },
+  {
+    "abbr": "Cist.",
+    "full_name": "Cistus Canadensis"
+  },
+  {
+    "abbr": "Cit-ac.",
+    "full_name": "Citricum Acidum"
+  },
+  {
+    "abbr": "Cit-l.",
+    "full_name": "Citrus Limonum"
+  },
+  {
+    "abbr": "Cit-v.",
+    "full_name": "Citrus Vulgaris"
+  },
+  {
+    "abbr": "Clem.",
+    "full_name": "Clematis Erecta"
+  },
+  {
+    "abbr": "Cob.",
+    "full_name": "Cobaltum"
+  },
+  {
+    "abbr": "Coc-c.",
+    "full_name": "Coccus Cacti"
+  },
+  {
+    "abbr": "Coca.",
+    "full_name": "Coca"
+  },
+  {
+    "abbr": "Cocain-m.",
+    "full_name": "Cocainum Muriaticum"
+  },
+  {
+    "abbr": "Cocc-s.",
+    "full_name": "Coccinella Septempunctata"
+  },
+  {
+    "abbr": "Cocc.",
+    "full_name": "Cocculus Indicus"
+  },
+  {
+    "abbr": "Coch.",
+    "full_name": "Cochlearia Armoracia"
+  },
+  {
+    "abbr": "Cod.",
+    "full_name": "Codeinum"
+  },
+  {
+    "abbr": "Coff-t.",
+    "full_name": "Coffea Tosta"
+  },
+  {
+    "abbr": "Coff.",
+    "full_name": "Coffea Cruda"
+  },
+  {
+    "abbr": "Colch.",
+    "full_name": "Colchicum Autumnale"
+  },
+  {
+    "abbr": "Coll.",
+    "full_name": "Collinsonia Canadensis"
+  },
+  {
+    "abbr": "Coloc.",
+    "full_name": "Colocynthis"
+  },
+  {
+    "abbr": "Colos.",
+    "full_name": "Colostrum"
+  },
+  {
+    "abbr": "Com.",
+    "full_name": "Comocladia Dentata"
+  },
+  {
+    "abbr": "Con.",
+    "full_name": "Conium Maculatum"
+  },
+  {
+    "abbr": "Cond.",
+    "full_name": "Cundurango"
+  },
+  {
+    "abbr": "Conv-d.",
+    "full_name": "Convolvulus Duartinus"
+  },
+  {
+    "abbr": "Conv.",
+    "full_name": "Convallaria Majalis"
+  },
+  {
+    "abbr": "Cop.",
+    "full_name": "Copaiva Officinalis"
+  },
+  {
+    "abbr": "Cor-r.",
+    "full_name": "Corallium Rubrum"
+  },
+  {
+    "abbr": "Cori-r.",
+    "full_name": "Coriaria Ruscifolia"
+  },
+  {
+    "abbr": "Corn-f.",
+    "full_name": "Cornus Florida"
+  },
+  {
+    "abbr": "Corn-s.",
+    "full_name": "Cornus Seriea"
+  },
+  {
+    "abbr": "Corn.",
+    "full_name": "Cornus Circinata"
+  },
+  {
+    "abbr": "Cot.",
+    "full_name": "Cotyledon Umbilicus"
+  },
+  {
+    "abbr": "Croc.",
+    "full_name": "Crocus Sativus"
+  },
+  {
+    "abbr": "Crot-c.",
+    "full_name": "Crotalus Cascavella"
+  },
+  {
+    "abbr": "Crot-h.",
+    "full_name": "Crotalus Horridus"
+  },
+  {
+    "abbr": "Crot-t.",
+    "full_name": "Croton Tiglium"
+  },
+  {
+    "abbr": "Cub.",
+    "full_name": "Cubeba Officinalis"
+  },
+  {
+    "abbr": "Culx.",
+    "full_name": "Culex Moscæ"
+  },
+  {
+    "abbr": "Cupr-ac.",
+    "full_name": "Cuprum Aceticum"
+  },
+  {
+    "abbr": "Cupr-ar.",
+    "full_name": "Cuprum Arsenicosum"
+  },
+  {
+    "abbr": "Cupr-n.",
+    "full_name": "Cuprum Nitricum"
+  },
+  {
+    "abbr": "Cupr-s.",
+    "full_name": "Cuprum Sulphuricum"
+  },
+  {
+    "abbr": "Cupr.",
+    "full_name": "Cuprum Metallicum"
+  },
+  {
+    "abbr": "Cur.",
+    "full_name": "Curare"
+  },
+  {
+    "abbr": "Cycl.",
+    "full_name": "Cyclamen Europæum"
+  },
+  {
+    "abbr": "Cypr.",
+    "full_name": "Cypripedium Pubescens"
+  },
+  {
+    "abbr": "Daph.",
+    "full_name": "Daphne Indica"
+  },
+  {
+    "abbr": "Der.",
+    "full_name": "Derris Pinnata"
+  },
+  {
+    "abbr": "Dig.",
+    "full_name": "Digitalis Purpurea"
+  },
+  {
+    "abbr": "Dios.",
+    "full_name": "Dioscorea Villosa"
+  },
+  {
+    "abbr": "Dirc.",
+    "full_name": "Dirca Palustris"
+  },
+  {
+    "abbr": "Dol.",
+    "full_name": "Dolichos Pruriens"
+  },
+  {
+    "abbr": "Dor.",
+    "full_name": "Doryphora"
+  },
+  {
+    "abbr": "Dros.",
+    "full_name": "Drosera Rotundifolia"
+  },
+  {
+    "abbr": "Dub.",
+    "full_name": "Duboisinum"
+  },
+  {
+    "abbr": "Dulc.",
+    "full_name": "Dulcamara"
+  },
+  {
+    "abbr": "Echi.",
+    "full_name": "Echinacea Angustifolia"
+  },
+  {
+    "abbr": "Elaps.",
+    "full_name": "Elaps Corallinus"
+  },
+  {
+    "abbr": "Elat.",
+    "full_name": "Elaterium"
+  },
+  {
+    "abbr": "Epig.",
+    "full_name": "Epigea Repens"
+  },
+  {
+    "abbr": "Equis.",
+    "full_name": "Equisetum Hyemale"
+  },
+  {
+    "abbr": "Erech.",
+    "full_name": "Erechthites Hieracifolia"
+  },
+  {
+    "abbr": "Erig.",
+    "full_name": "Erigeron Canadense"
+  },
+  {
+    "abbr": "Ery-a.",
+    "full_name": "Eryngium Aquaticum"
+  },
+  {
+    "abbr": "Ether.",
+    "full_name": "Ether"
+  },
+  {
+    "abbr": "Eucal.",
+    "full_name": "Eucalyptus Globulus"
+  },
+  {
+    "abbr": "Eug.",
+    "full_name": "Eugenia Jambos"
+  },
+  {
+    "abbr": "Euon.",
+    "full_name": "Euonymus Europæus"
+  },
+  {
+    "abbr": "Eup-per.",
+    "full_name": "Eupatorium Perfoliatum"
+  },
+  {
+    "abbr": "Eup-pur.",
+    "full_name": "Eupatorium Purpureum"
+  },
+  {
+    "abbr": "Eupho.",
+    "full_name": "Euphorbium"
+  },
+  {
+    "abbr": "Euphr.",
+    "full_name": "Euphrasia Officinalis"
+  },
+  {
+    "abbr": "Eupi.",
+    "full_name": "Eupion"
+  },
+  {
+    "abbr": "Fago.",
+    "full_name": "Fagopyrum"
+  },
+  {
+    "abbr": "Ferr-ac.",
+    "full_name": "Ferrum Aceticum"
+  },
+  {
+    "abbr": "Ferr-ar.",
+    "full_name": "Ferrum Arsenicosum"
+  },
+  {
+    "abbr": "Ferr-i.",
+    "full_name": "Ferrum Iodatum"
+  },
+  {
+    "abbr": "Ferr-m.",
+    "full_name": "Ferrum Muriaticum"
+  },
+  {
+    "abbr": "Ferr-ma.",
+    "full_name": "Ferrum Magneticum"
+  },
+  {
+    "abbr": "Ferr-p.",
+    "full_name": "Ferrum Phosphoricum"
+  },
+  {
+    "abbr": "Ferr-pic.",
+    "full_name": "Ferrum Picricum"
+  },
+  {
+    "abbr": "Ferr-s.",
+    "full_name": "Ferrum Sulphuricum"
+  },
+  {
+    "abbr": "Ferr.",
+    "full_name": "Ferrum Metallicum"
+  },
+  {
+    "abbr": "Fil.",
+    "full_name": "Filix Mas"
+  },
+  {
+    "abbr": "Fl-ac.",
+    "full_name": "Fluoricum Acidum"
+  },
+  {
+    "abbr": "Form.",
+    "full_name": "Formica Rufa"
+  },
+  {
+    "abbr": "Frag-v.",
+    "full_name": "Fragaria Vesca"
+  },
+  {
+    "abbr": "Gad.",
+    "full_name": "Gadus Morrhua"
+  },
+  {
+    "abbr": "Gall-ac.",
+    "full_name": "Gallicum Acidum"
+  },
+  {
+    "abbr": "Gamb.",
+    "full_name": "Gambogia"
+  },
+  {
+    "abbr": "Gels.",
+    "full_name": "Gelsemium Sempervirens"
+  },
+  {
+    "abbr": "Genist.",
+    "full_name": "Genista Tinctoria"
+  },
+  {
+    "abbr": "Gent-c.",
+    "full_name": "Gentiana Cruciata"
+  },
+  {
+    "abbr": "Gent-l.",
+    "full_name": "Gentiana Lutea"
+  },
+  {
+    "abbr": "Ger.",
+    "full_name": "Geranium Maculatum"
+  },
+  {
+    "abbr": "Get.",
+    "full_name": "Gettisburg Water"
+  },
+  {
+    "abbr": "Gins.",
+    "full_name": "Ginseng"
+  },
+  {
+    "abbr": "Gland.",
+    "full_name": "Glanderine"
+  },
+  {
+    "abbr": "Glon.",
+    "full_name": "Glonoin"
+  },
+  {
+    "abbr": "Gnaph.",
+    "full_name": "Gnaphalium"
+  },
+  {
+    "abbr": "Goss.",
+    "full_name": "Gossypium Herbaceum"
+  },
+  {
+    "abbr": "Gran.",
+    "full_name": "Granatum Punica"
+  },
+  {
+    "abbr": "Graph.",
+    "full_name": "Graphites"
+  },
+  {
+    "abbr": "Grat.",
+    "full_name": "Gratiola Officinalis"
+  },
+  {
+    "abbr": "Grin.",
+    "full_name": "Grindelia Robusta"
+  },
+  {
+    "abbr": "Gua.",
+    "full_name": "Guaco"
+  },
+  {
+    "abbr": "Guai.",
+    "full_name": "Guaiacum"
+  },
+  {
+    "abbr": "Guano.",
+    "full_name": "Guano Australis"
+  },
+  {
+    "abbr": "Guar.",
+    "full_name": "Guarana"
+  },
+  {
+    "abbr": "Guare.",
+    "full_name": "Guarea"
+  },
+  {
+    "abbr": "Gymn.",
+    "full_name": "Gymnocladus"
+  },
+  {
+    "abbr": "Hæm.",
+    "full_name": "Hæmatoxylon"
+  },
+  {
+    "abbr": "Ham.",
+    "full_name": "Hamamelis Virginica"
+  },
+  {
+    "abbr": "Hecla.",
+    "full_name": "Hecla Lava"
+  },
+  {
+    "abbr": "Hedeo.",
+    "full_name": "Hedeoma Pulegioides"
+  },
+  {
+    "abbr": "Hell.",
+    "full_name": "Helleborus Niger"
+  },
+  {
+    "abbr": "Helod.",
+    "full_name": "Heloderma"
+  },
+  {
+    "abbr": "Helon.",
+    "full_name": "Helonias Dioica"
+  },
+  {
+    "abbr": "Hep.",
+    "full_name": "Hepar Sulphuris Calcareum"
+  },
+  {
+    "abbr": "Hipp.",
+    "full_name": "Hippomanes"
+  },
+  {
+    "abbr": "Hippoz.",
+    "full_name": "Hippozænium"
+  },
+  {
+    "abbr": "Hom.",
+    "full_name": "Homarus"
+  },
+  {
+    "abbr": "Hura.",
+    "full_name": "Hura Braziliensis"
+  },
+  {
+    "abbr": "Hydr-ac.",
+    "full_name": "Hydrocyanicum Acidum"
+  },
+  {
+    "abbr": "Hydr.",
+    "full_name": "Hydrastis Canadensis"
+  },
+  {
+    "abbr": "Hydrang.",
+    "full_name": "Hydrangea Arborescens"
+  },
+  {
+    "abbr": "Hydrc.",
+    "full_name": "Hydrocotyle Asiatica"
+  },
+  {
+    "abbr": "Hyos.",
+    "full_name": "Hyoscyamus Niger"
+  },
+  {
+    "abbr": "Hyper.",
+    "full_name": "Hypericum Perforatum"
+  },
+  {
+    "abbr": "Iber.",
+    "full_name": "Iberis Amara"
+  },
+  {
+    "abbr": "Ictod.",
+    "full_name": "Ictodes Fœtida"
+  },
+  {
+    "abbr": "Ign.",
+    "full_name": "Ignatia Amara"
+  },
+  {
+    "abbr": "Ill.",
+    "full_name": "Illicium Anisatum"
+  },
+  {
+    "abbr": "Ind.",
+    "full_name": "Indium Metallicum"
+  },
+  {
+    "abbr": "Indg.",
+    "full_name": "Indigo"
+  },
+  {
+    "abbr": "Ing.",
+    "full_name": "Ingluvin"
+  },
+  {
+    "abbr": "Inul.",
+    "full_name": "Inula Helenium"
+  },
+  {
+    "abbr": "Iod.",
+    "full_name": "Iodium"
+  },
+  {
+    "abbr": "Iodof.",
+    "full_name": "Iodoformum"
+  },
+  {
+    "abbr": "Ip.",
+    "full_name": "Ipecacuanha"
+  },
+  {
+    "abbr": "Ipom.",
+    "full_name": "Ipomia Purpurea"
+  },
+  {
+    "abbr": "Ir-fl.",
+    "full_name": "Iris Florentina"
+  },
+  {
+    "abbr": "Ir-fœ.",
+    "full_name": "Iris Fœtidissima"
+  },
+  {
+    "abbr": "Ir-g.",
+    "full_name": "Iris Germanica"
+  },
+  {
+    "abbr": "Iridium.",
+    "full_name": "Iridium"
+  },
+  {
+    "abbr": "Iris.",
+    "full_name": "Iris Versicolor"
+  },
+  {
+    "abbr": "Jab.",
+    "full_name": "Jaborandi"
+  },
+  {
+    "abbr": "Jac-c.",
+    "full_name": "Jacaranda Caroba"
+  },
+  {
+    "abbr": "Jac.",
+    "full_name": "Jacaranda Gualandai"
+  },
+  {
+    "abbr": "Jal.",
+    "full_name": "Jalapa"
+  },
+  {
+    "abbr": "Jatr.",
+    "full_name": "Jatropha Curcas"
+  },
+  {
+    "abbr": "Jug-c.",
+    "full_name": "Juglans Cinerea"
+  },
+  {
+    "abbr": "Jug-r.",
+    "full_name": "Juglans Regia"
+  },
+  {
+    "abbr": "Junc.",
+    "full_name": "Juncus Effusus"
+  },
+  {
+    "abbr": "Juni.",
+    "full_name": "Juniperus Virginiana"
+  },
+  {
+    "abbr": "Kali-a.",
+    "full_name": "Kali Aceticum"
+  },
+  {
+    "abbr": "Kali-ar.",
+    "full_name": "Kali Arsenicosum"
+  },
+  {
+    "abbr": "Kali-bi.",
+    "full_name": "Kali Bichromicum"
+  },
+  {
+    "abbr": "Kali-br.",
+    "full_name": "Kali Bromatum"
+  },
+  {
+    "abbr": "Kali-c.",
+    "full_name": "Kali Carbonicum"
+  },
+  {
+    "abbr": "Kali-chl.",
+    "full_name": "Kali Chloricum"
+  },
+  {
+    "abbr": "Kali-cy.",
+    "full_name": "Kali Cyanatum"
+  },
+  {
+    "abbr": "Kali-fer.",
+    "full_name": "Kali Ferrocyanicum"
+  },
+  {
+    "abbr": "Kali-i.",
+    "full_name": "Kali Iodatum"
+  },
+  {
+    "abbr": "Kali-m.",
+    "full_name": "Kali Muriaticum"
+  },
+  {
+    "abbr": "Kali-ma.",
+    "full_name": "Kali Manganicum"
+  },
+  {
+    "abbr": "Kali-n.",
+    "full_name": "Kali Nitricum"
+  },
+  {
+    "abbr": "Kali-ox.",
+    "full_name": "Kali Oxalicum"
+  },
+  {
+    "abbr": "Kali-p.",
+    "full_name": "Kali Phosphoricum"
+  },
+  {
+    "abbr": "Kali-s.",
+    "full_name": "Kali Sulphuricum"
+  },
+  {
+    "abbr": "Kalm.",
+    "full_name": "Kalmia Latifolia"
+  },
+  {
+    "abbr": "Kaol.",
+    "full_name": "Kaolin"
+  },
+  {
+    "abbr": "Kino.",
+    "full_name": "Kino"
+  },
+  {
+    "abbr": "Kiss.",
+    "full_name": "Kissingen"
+  },
+  {
+    "abbr": "Kreos.",
+    "full_name": "Kreosotum"
+  },
+  {
+    "abbr": "Lac-c.",
+    "full_name": "Lac Caninum"
+  },
+  {
+    "abbr": "Lac-d.",
+    "full_name": "Lac Defloratum"
+  },
+  {
+    "abbr": "Lac-f.",
+    "full_name": "Lac Felinum"
+  },
+  {
+    "abbr": "Lach.",
+    "full_name": "Lachesis"
+  },
+  {
+    "abbr": "Lachn.",
+    "full_name": "Lachnanthes Tinctoria"
+  },
+  {
+    "abbr": "Lact-ac.",
+    "full_name": "Lactic Acid."
+  },
+  {
+    "abbr": "Lact.",
+    "full_name": "Lactuca Virosa"
+  },
+  {
+    "abbr": "Lam.",
+    "full_name": "Lamium Album"
+  },
+  {
+    "abbr": "Lap-a.",
+    "full_name": "Lapis Albus"
+  },
+  {
+    "abbr": "Lappa-a.",
+    "full_name": "Lappa Arctium"
+  },
+  {
+    "abbr": "Lappa-m.",
+    "full_name": "Lappa Major"
+  },
+  {
+    "abbr": "Lat-m.",
+    "full_name": "Latrodectus Mactans"
+  },
+  {
+    "abbr": "Lath.",
+    "full_name": "Lathyrus Sativus"
+  },
+  {
+    "abbr": "Laur.",
+    "full_name": "Laurocerasus"
+  },
+  {
+    "abbr": "Lec.",
+    "full_name": "Lecithin"
+  },
+  {
+    "abbr": "Led.",
+    "full_name": "Ledum Palustre"
+  },
+  {
+    "abbr": "Lem-m.",
+    "full_name": "Lemna Minor"
+  },
+  {
+    "abbr": "Lepi.",
+    "full_name": "Lepidium Bonariense"
+  },
+  {
+    "abbr": "Lept.",
+    "full_name": "Leptandra Virginica"
+  },
+  {
+    "abbr": "Lil-t.",
+    "full_name": "Lilium Tigrinum"
+  },
+  {
+    "abbr": "Linu-c.",
+    "full_name": "Linum Cathar"
+  },
+  {
+    "abbr": "Lith-m.",
+    "full_name": "Lithium Muriaticum"
+  },
+  {
+    "abbr": "Lith.",
+    "full_name": "Lithium Carbonicum"
+  },
+  {
+    "abbr": "Lob-c.",
+    "full_name": "Lobelia Cardinalis"
+  },
+  {
+    "abbr": "Lob-s.",
+    "full_name": "Lobelia Syphilitica"
+  },
+  {
+    "abbr": "Lob.",
+    "full_name": "Lobelia Inflata"
+  },
+  {
+    "abbr": "Lup.",
+    "full_name": "Lupulus"
+  },
+  {
+    "abbr": "Lyc.",
+    "full_name": "Lycopodium Clavatum"
+  },
+  {
+    "abbr": "Lycpr.",
+    "full_name": "Lycopersicum"
+  },
+  {
+    "abbr": "Lycps.",
+    "full_name": "Lycopus Virginicus"
+  },
+  {
+    "abbr": "Lyss.",
+    "full_name": "Lyssin (Hydrophobinum)"
+  },
+  {
+    "abbr": "Mag-arct.",
+    "full_name": "Magnetis Polus Arcticus"
+  },
+  {
+    "abbr": "Mag-aust.",
+    "full_name": "Magnetis Polus Australis"
+  },
+  {
+    "abbr": "Mag-c.",
+    "full_name": "Magnesia Carbonica"
+  },
+  {
+    "abbr": "Mag-m.",
+    "full_name": "Magnesia Muriatica"
+  },
+  {
+    "abbr": "Mag-p-a.",
+    "full_name": "Magnetis Poli. Ambo."
+  },
+  {
+    "abbr": "Mag-p.",
+    "full_name": "Magnesia Phosphorica"
+  },
+  {
+    "abbr": "Mag-s.",
+    "full_name": "Magnesia Sulphurica"
+  },
+  {
+    "abbr": "Maland.",
+    "full_name": "Malandrinum"
+  },
+  {
+    "abbr": "Malar.",
+    "full_name": "Malaria Officinalis"
+  },
+  {
+    "abbr": "Manc.",
+    "full_name": "Mancinella (Hippomanes)"
+  },
+  {
+    "abbr": "Mang-m.",
+    "full_name": "Manganum Muriaticum"
+  },
+  {
+    "abbr": "Mang.",
+    "full_name": "Manganum"
+  },
+  {
+    "abbr": "Med.",
+    "full_name": "Medorrhinum"
+  },
+  {
+    "abbr": "Meli.",
+    "full_name": "Melilotus Alba"
+  },
+  {
+    "abbr": "Menis.",
+    "full_name": "Menispermum"
+  },
+  {
+    "abbr": "Ment.",
+    "full_name": "Mentha Piperita"
+  },
+  {
+    "abbr": "Meny.",
+    "full_name": "Menyanthes"
+  },
+  {
+    "abbr": "Meph.",
+    "full_name": "Mephitis"
+  },
+  {
+    "abbr": "Merc-ac.",
+    "full_name": "Mercurius Aceticus"
+  },
+  {
+    "abbr": "Merc-c.",
+    "full_name": "Mercurius Corrosivus"
+  },
+  {
+    "abbr": "Merc-cy.",
+    "full_name": "Mercurius Cyanatus"
+  },
+  {
+    "abbr": "Merc-d.",
+    "full_name": "Mercurius Dulcis"
+  },
+  {
+    "abbr": "Merc-i-f.",
+    "full_name": "Mercurius Iodatus Flavus"
+  },
+  {
+    "abbr": "Merc-i-r.",
+    "full_name": "Mercurius Iodatus Ruber"
+  },
+  {
+    "abbr": "Merc-n.",
+    "full_name": "Mercurius Nitrosus"
+  },
+  {
+    "abbr": "Merc-p-r.",
+    "full_name": "Mercurius Præcipitatus Ruber"
+  },
+  {
+    "abbr": "Merc-sul.",
+    "full_name": "Mercurius Sulphuricus"
+  },
+  {
+    "abbr": "Merc.",
+    "full_name": "Mercurius Vivus"
+  },
+  {
+    "abbr": "Merl.",
+    "full_name": "Mercurialis"
+  },
+  {
+    "abbr": "Mez.",
+    "full_name": "Mezereum"
+  },
+  {
+    "abbr": "Mill.",
+    "full_name": "Millefolium"
+  },
+  {
+    "abbr": "Mit.",
+    "full_name": "Mitchella Repens"
+  },
+  {
+    "abbr": "Morph.",
+    "full_name": "Morphinum"
+  },
+  {
+    "abbr": "Mosch.",
+    "full_name": "Moschus"
+  },
+  {
+    "abbr": "Mur-ac.",
+    "full_name": "Muriaticum Acidum"
+  },
+  {
+    "abbr": "Murx.",
+    "full_name": "Murex"
+  },
+  {
+    "abbr": "Mygal.",
+    "full_name": "Mygale Lasiodora"
+  },
+  {
+    "abbr": "Myos.",
+    "full_name": "Myosotis"
+  },
+  {
+    "abbr": "Myric.",
+    "full_name": "Myrica Cerifera"
+  },
+  {
+    "abbr": "Myris.",
+    "full_name": "Myristica Sebifera"
+  },
+  {
+    "abbr": "Myrt.",
+    "full_name": "Myrtus Communis"
+  },
+  {
+    "abbr": "Naja.",
+    "full_name": "Naja Tripudia"
+  },
+  {
+    "abbr": "Naph.",
+    "full_name": "Naphthalin"
+  },
+  {
+    "abbr": "Narcot.",
+    "full_name": "Narcotinum"
+  },
+  {
+    "abbr": "Nat-a.",
+    "full_name": "Natrum Arsenicatum"
+  },
+  {
+    "abbr": "Nat-ac.",
+    "full_name": "Natrum Aceticum"
+  },
+  {
+    "abbr": "Nat-c.",
+    "full_name": "Natrum Carbonicum"
+  },
+  {
+    "abbr": "Nat-h.",
+    "full_name": "Natrum Hypochlorosum"
+  },
+  {
+    "abbr": "Nat-m.",
+    "full_name": "Natrum Muriaticum"
+  },
+  {
+    "abbr": "Nat-n.",
+    "full_name": "Natrum Nitricum"
+  },
+  {
+    "abbr": "Nat-p.",
+    "full_name": "Natrum Phosphoricum"
+  },
+  {
+    "abbr": "Nat-s.",
+    "full_name": "Natrum Sulphuricum"
+  },
+  {
+    "abbr": "Nicc-s.",
+    "full_name": "Niccolum Sulph."
+  },
+  {
+    "abbr": "Nicc.",
+    "full_name": "Niccolum"
+  },
+  {
+    "abbr": "Nit-ac.",
+    "full_name": "Nitricum Acidum"
+  },
+  {
+    "abbr": "Nit-m-ac.",
+    "full_name": "Nitro Muriatic Acid."
+  },
+  {
+    "abbr": "Nit-s-d.",
+    "full_name": "Nitri Spiritus Dulcis"
+  },
+  {
+    "abbr": "Nitro-o.",
+    "full_name": "Nitrogenium Oxygenatum"
+  },
+  {
+    "abbr": "Nuph.",
+    "full_name": "Nuphar Luteum"
+  },
+  {
+    "abbr": "Nux-j.",
+    "full_name": "Nux Juglans"
+  },
+  {
+    "abbr": "Nux-m.",
+    "full_name": "Nux Moschata"
+  },
+  {
+    "abbr": "Nux-v.",
+    "full_name": "Nux Vomica"
+  },
+  {
+    "abbr": "Nym.",
+    "full_name": "Nymphæa Odorata"
+  },
+  {
+    "abbr": "Oci.",
+    "full_name": "Ocimum Canum"
+  },
+  {
+    "abbr": "Œna.",
+    "full_name": "Œnanthe Crocata"
+  },
+  {
+    "abbr": "Ol-an.",
+    "full_name": "Oleum Animale"
+  },
+  {
+    "abbr": "Ol-j.",
+    "full_name": "Oleum Jecoris Aselli"
+  },
+  {
+    "abbr": "Olnd.",
+    "full_name": "Oleander"
+  },
+  {
+    "abbr": "Onos.",
+    "full_name": "Onosmodium"
+  },
+  {
+    "abbr": "Op.",
+    "full_name": "Opium"
+  },
+  {
+    "abbr": "Orig.",
+    "full_name": "Origanum Majorana"
+  },
+  {
+    "abbr": "Osm.",
+    "full_name": "Osmium"
+  },
+  {
+    "abbr": "Ov.",
+    "full_name": "Ovinine"
+  },
+  {
+    "abbr": "Ox-ac.",
+    "full_name": "Oxalicum Acidum"
+  },
+  {
+    "abbr": "Oxyt.",
+    "full_name": "Oxytropis Lamberti"
+  },
+  {
+    "abbr": "Ozone.",
+    "full_name": "Ozone (Oxygenium)"
+  },
+  {
+    "abbr": "Pæon.",
+    "full_name": "Pæonia Officinalis"
+  },
+  {
+    "abbr": "Pall.",
+    "full_name": "Palladium"
+  },
+  {
+    "abbr": "Par.",
+    "full_name": "Paris Quadrifolia"
+  },
+  {
+    "abbr": "Pareir.",
+    "full_name": "Pareira Brava"
+  },
+  {
+    "abbr": "Paull.",
+    "full_name": "Paullinia Pinnata"
+  },
+  {
+    "abbr": "Ped.",
+    "full_name": "Pediculus Capitis"
+  },
+  {
+    "abbr": "Pen.",
+    "full_name": "Penthorum"
+  },
+  {
+    "abbr": "Per.",
+    "full_name": "Persica"
+  },
+  {
+    "abbr": "Peti.",
+    "full_name": "Petiveria"
+  },
+  {
+    "abbr": "Petr.",
+    "full_name": "Petroleum"
+  },
+  {
+    "abbr": "Petros.",
+    "full_name": "Petroselinum"
+  },
+  {
+    "abbr": "Ph-ac.",
+    "full_name": "Phosphoricum Acidum"
+  },
+  {
+    "abbr": "Phal.",
+    "full_name": "Phallus Impudicus"
+  },
+  {
+    "abbr": "Phase.",
+    "full_name": "Phaseolus Nanus"
+  },
+  {
+    "abbr": "Phel.",
+    "full_name": "Phellandrium"
+  },
+  {
+    "abbr": "Phos.",
+    "full_name": "Phosphorus"
+  },
+  {
+    "abbr": "Phys.",
+    "full_name": "Physostigma"
+  },
+  {
+    "abbr": "Phyt.",
+    "full_name": "Phytolacca Decandra"
+  },
+  {
+    "abbr": "Pic-ac.",
+    "full_name": "Picricum Acidum"
+  },
+  {
+    "abbr": "Pimp.",
+    "full_name": "Pimpinella Saxifraga"
+  },
+  {
+    "abbr": "Pin-s.",
+    "full_name": "Pinus Sylvestris"
+  },
+  {
+    "abbr": "Pip-m.",
+    "full_name": "Piper Methysticum"
+  },
+  {
+    "abbr": "Pip-n.",
+    "full_name": "Piper Nigrum"
+  },
+  {
+    "abbr": "Plan.",
+    "full_name": "Plantago Major"
+  },
+  {
+    "abbr": "Plat-m.",
+    "full_name": "Platinum Muriaticum"
+  },
+  {
+    "abbr": "Plat.",
+    "full_name": "Platinum Metallicum"
+  },
+  {
+    "abbr": "Plb.",
+    "full_name": "Plumbum Metallicum"
+  },
+  {
+    "abbr": "Plect.",
+    "full_name": "Plectranthus"
+  },
+  {
+    "abbr": "Plumbg.",
+    "full_name": "Plumbago Littoralis"
+  },
+  {
+    "abbr": "Podo.",
+    "full_name": "Podophyllum Peltatum"
+  },
+  {
+    "abbr": "Polyg-h.",
+    "full_name": "Polygonum Hydropiperoides"
+  },
+  {
+    "abbr": "Pop-t.",
+    "full_name": "Populus Tremuloides"
+  },
+  {
+    "abbr": "Poth.",
+    "full_name": "Pothos Fœtidus"
+  },
+  {
+    "abbr": "Prun-p.",
+    "full_name": "Prunus Padus"
+  },
+  {
+    "abbr": "Prun-s.",
+    "full_name": "Prunus Spinosa"
+  },
+  {
+    "abbr": "Psor.",
+    "full_name": "Psorinum"
+  },
+  {
+    "abbr": "Ptel.",
+    "full_name": "Ptelea Trifoliata"
+  },
+  {
+    "abbr": "Puls-n.",
+    "full_name": "Pulsatilla Nuttaliana"
+  },
+  {
+    "abbr": "Puls.",
+    "full_name": "Pulsatilla Nigricans"
+  },
+  {
+    "abbr": "Pulx.",
+    "full_name": "Pulex Irritans"
+  },
+  {
+    "abbr": "Pyrog.",
+    "full_name": "Pyrogenium"
+  },
+  {
+    "abbr": "Pyrus.",
+    "full_name": "Pyrus Americana"
+  },
+  {
+    "abbr": "Rad.",
+    "full_name": "Radium"
+  },
+  {
+    "abbr": "Ran-a.",
+    "full_name": "Ranunculus Acris"
+  },
+  {
+    "abbr": "Ran-b.",
+    "full_name": "Ranunculus Bulbosus"
+  },
+  {
+    "abbr": "Ran-s.",
+    "full_name": "Ranunculus Sceleratus"
+  },
+  {
+    "abbr": "Raph.",
+    "full_name": "Raphanus"
+  },
+  {
+    "abbr": "Rat.",
+    "full_name": "Ratanhia"
+  },
+  {
+    "abbr": "Rheum.",
+    "full_name": "Rheum"
+  },
+  {
+    "abbr": "Rhod.",
+    "full_name": "Rhododendron"
+  },
+  {
+    "abbr": "Rhus-a.",
+    "full_name": "Rhus aromatica"
+  },
+  {
+    "abbr": "Rhus-g.",
+    "full_name": "Rhus Glabra"
+  },
+  {
+    "abbr": "Rhus-r.",
+    "full_name": "Rhus Radicans"
+  },
+  {
+    "abbr": "Rhus-t.",
+    "full_name": "Rhus Toxicodendron"
+  },
+  {
+    "abbr": "Rhus-v.",
+    "full_name": "Rhus Venenata"
+  },
+  {
+    "abbr": "Rob.",
+    "full_name": "Robinia Pseudacacia"
+  },
+  {
+    "abbr": "Rumx.",
+    "full_name": "Rumex Crispus"
+  },
+  {
+    "abbr": "Ruta.",
+    "full_name": "Ruta Graveolens"
+  },
+  {
+    "abbr": "Sabad.",
+    "full_name": "Sabadilla"
+  },
+  {
+    "abbr": "Sabal.",
+    "full_name": "Sabal Serrulata"
+  },
+  {
+    "abbr": "Sabin.",
+    "full_name": "Sabina"
+  },
+  {
+    "abbr": "Sac-l.",
+    "full_name": "Saccharum Lactis"
+  },
+  {
+    "abbr": "Sacc.",
+    "full_name": "Saccharum Album"
+  },
+  {
+    "abbr": "Sal-ac.",
+    "full_name": "Salicylicum Acidum"
+  },
+  {
+    "abbr": "Sal-n.",
+    "full_name": "Salix Niger"
+  },
+  {
+    "abbr": "Salam.",
+    "full_name": "Salamander"
+  },
+  {
+    "abbr": "Samb.",
+    "full_name": "Sambucus Nigra"
+  },
+  {
+    "abbr": "Sang-n.",
+    "full_name": "Sanguinaria Nitrica"
+  },
+  {
+    "abbr": "Sang.",
+    "full_name": "Sanguinaria Canadensis"
+  },
+  {
+    "abbr": "Sanic.",
+    "full_name": "Sanicula Aqua"
+  },
+  {
+    "abbr": "Sant.",
+    "full_name": "Santoninum"
+  },
+  {
+    "abbr": "Sarr.",
+    "full_name": "Sarracenia Purpurea"
+  },
+  {
+    "abbr": "Sars.",
+    "full_name": "Sarsaparilla"
+  },
+  {
+    "abbr": "Scut.",
+    "full_name": "Scutellaria Lateriflora"
+  },
+  {
+    "abbr": "Sec.",
+    "full_name": "Secale Cornutum"
+  },
+  {
+    "abbr": "Sel.",
+    "full_name": "Selenium"
+  },
+  {
+    "abbr": "Senec.",
+    "full_name": "Senecio Aureus"
+  },
+  {
+    "abbr": "Seneg.",
+    "full_name": "Senega"
+  },
+  {
+    "abbr": "Senn.",
+    "full_name": "Senna"
+  },
+  {
+    "abbr": "Sep.",
+    "full_name": "Sepia"
+  },
+  {
+    "abbr": "Serp.",
+    "full_name": "Serpentaria"
+  },
+  {
+    "abbr": "Sil.",
+    "full_name": "Silicea"
+  },
+  {
+    "abbr": "Sin-a.",
+    "full_name": "Sinapis Alba"
+  },
+  {
+    "abbr": "Sin-n.",
+    "full_name": "Sinapis Nigra"
+  },
+  {
+    "abbr": "Sol-m.",
+    "full_name": "Solanum Mammosum"
+  },
+  {
+    "abbr": "Sol-n.",
+    "full_name": "Solanum Nigrum"
+  },
+  {
+    "abbr": "Sol-o.",
+    "full_name": "Solanum Oleraceum"
+  },
+  {
+    "abbr": "Sol-t-æ.",
+    "full_name": "Solanum Tuberosum Ægrotans"
+  },
+  {
+    "abbr": "Sol-v.",
+    "full_name": "Solidago Virg. aur."
+  },
+  {
+    "abbr": "Spig-m.",
+    "full_name": "Spigelia Marilandica"
+  },
+  {
+    "abbr": "Spig.",
+    "full_name": "Spigelia Anthelmia"
+  },
+  {
+    "abbr": "Spira.",
+    "full_name": "Spiranthes"
+  },
+  {
+    "abbr": "Spong.",
+    "full_name": "Spongia Tosta"
+  },
+  {
+    "abbr": "Squil.",
+    "full_name": "Squilla hispanica"
+  },
+  {
+    "abbr": "Stach.",
+    "full_name": "Stachys Betonica"
+  },
+  {
+    "abbr": "Stann.",
+    "full_name": "Stannum Metallicum"
+  },
+  {
+    "abbr": "Staph.",
+    "full_name": "Staphysagria"
+  },
+  {
+    "abbr": "Stel.",
+    "full_name": "Stellaria Media"
+  },
+  {
+    "abbr": "Stict.",
+    "full_name": "Sticta Pulmonaria"
+  },
+  {
+    "abbr": "Still.",
+    "full_name": "Stillingia Sylvatica"
+  },
+  {
+    "abbr": "Stram.",
+    "full_name": "Stramonium"
+  },
+  {
+    "abbr": "Stront.",
+    "full_name": "Strontium"
+  },
+  {
+    "abbr": "Stroph.",
+    "full_name": "Strophanthus Hispidus"
+  },
+  {
+    "abbr": "Stry.",
+    "full_name": "Strychninum"
+  },
+  {
+    "abbr": "Sul-ac.",
+    "full_name": "Sulphuricum Acidum"
+  },
+  {
+    "abbr": "Sul-i.",
+    "full_name": "Sulphur Iodatum"
+  },
+  {
+    "abbr": "Sulph.",
+    "full_name": "Sulphur"
+  },
+  {
+    "abbr": "Sumb.",
+    "full_name": "Sumbul"
+  },
+  {
+    "abbr": "Sym-r.",
+    "full_name": "Symphoricarpus Racemosus"
+  },
+  {
+    "abbr": "Symph.",
+    "full_name": "Symphytum Officinale"
+  },
+  {
+    "abbr": "Syph.",
+    "full_name": "Syphilinum"
+  },
+  {
+    "abbr": "Tab.",
+    "full_name": "Tabacum"
+  },
+  {
+    "abbr": "Tanac.",
+    "full_name": "Tanacetum Vulgare"
+  },
+  {
+    "abbr": "Tann.",
+    "full_name": "Tanninum"
+  },
+  {
+    "abbr": "Tarax.",
+    "full_name": "Taraxacum"
+  },
+  {
+    "abbr": "Tarent-c.",
+    "full_name": "Tarentula Cubensis"
+  },
+  {
+    "abbr": "Tarent.",
+    "full_name": "Tarentula Hispanica"
+  },
+  {
+    "abbr": "Tart-ac.",
+    "full_name": "Tartaricum Acid."
+  },
+  {
+    "abbr": "Tax.",
+    "full_name": "Taxus Baccata"
+  },
+  {
+    "abbr": "Tell.",
+    "full_name": "Tellurium"
+  },
+  {
+    "abbr": "Tep.",
+    "full_name": "Teplitz"
+  },
+  {
+    "abbr": "Ter.",
+    "full_name": "Terebinthina"
+  },
+  {
+    "abbr": "Teucr.",
+    "full_name": "Teucrium Marum Verum"
+  },
+  {
+    "abbr": "Thal.",
+    "full_name": "Thallium"
+  },
+  {
+    "abbr": "Thea.",
+    "full_name": "Thea Sinensis"
+  },
+  {
+    "abbr": "Ther.",
+    "full_name": "Theridion"
+  },
+  {
+    "abbr": "Thlaspi.",
+    "full_name": "Thlaspi Bursa Pastoris"
+  },
+  {
+    "abbr": "Thuj.",
+    "full_name": "Thuja Occidentalis"
+  },
+  {
+    "abbr": "Til.",
+    "full_name": "Tilia Europœa"
+  },
+  {
+    "abbr": "Tong.",
+    "full_name": "Tongo"
+  },
+  {
+    "abbr": "Trif-p.",
+    "full_name": "Trifolium Pratense"
+  },
+  {
+    "abbr": "Tril.",
+    "full_name": "Trillium Pendulum"
+  },
+  {
+    "abbr": "Trio.",
+    "full_name": "Triosteum Perfoliatum"
+  },
+  {
+    "abbr": "Trom.",
+    "full_name": "Trombidium Muscæ Domesticæ"
+  },
+  {
+    "abbr": "Tub.",
+    "full_name": "Tuberculinum"
+  },
+  {
+    "abbr": "Tus-f.",
+    "full_name": "Tussilago Fragrans"
+  },
+  {
+    "abbr": "Tus-p.",
+    "full_name": "Tussilago Petasites"
+  },
+  {
+    "abbr": "Upa.",
+    "full_name": "Upas Tiente"
+  },
+  {
+    "abbr": "Uran.",
+    "full_name": "Uranium Nitricum"
+  },
+  {
+    "abbr": "Urt-u.",
+    "full_name": "Urtica Urens"
+  },
+  {
+    "abbr": "Ust.",
+    "full_name": "Ustilago Maydis"
+  },
+  {
+    "abbr": "Uva.",
+    "full_name": "Uva Ursi"
+  },
+  {
+    "abbr": "Vac.",
+    "full_name": "Vaccininum"
+  },
+  {
+    "abbr": "Valer.",
+    "full_name": "Valeriana"
+  },
+  {
+    "abbr": "Vario.",
+    "full_name": "Variolinum"
+  },
+  {
+    "abbr": "Verat-v.",
+    "full_name": "Veratrum Viride"
+  },
+  {
+    "abbr": "Verat.",
+    "full_name": "Veratrum Album"
+  },
+  {
+    "abbr": "Verb.",
+    "full_name": "Verbascum Thapsus"
+  },
+  {
+    "abbr": "Vesp.",
+    "full_name": "Vespa Crabro"
+  },
+  {
+    "abbr": "Vib.",
+    "full_name": "Viburnum Opulus"
+  },
+  {
+    "abbr": "Vinc.",
+    "full_name": "Vinca Minor"
+  },
+  {
+    "abbr": "Viol-o.",
+    "full_name": "Viola Odorata"
+  },
+  {
+    "abbr": "Viol-t.",
+    "full_name": "Viola Tricolor"
+  },
+  {
+    "abbr": "Vip.",
+    "full_name": "Vipera"
+  },
+  {
+    "abbr": "Visc.",
+    "full_name": "Viscum Album"
+  },
+  {
+    "abbr": "Wies.",
+    "full_name": "Wiesbaden"
+  },
+  {
+    "abbr": "Wild.",
+    "full_name": "Wildbad"
+  },
+  {
+    "abbr": "Wye.",
+    "full_name": "Wyethia Helenioides"
+  },
+  {
+    "abbr": "Xan.",
+    "full_name": "Xanthoxylum Fraxineum"
+  },
+  {
+    "abbr": "Yuc.",
+    "full_name": "Yucca"
+  },
+  {
+    "abbr": "Zinc-ac.",
+    "full_name": "Zincum Aceticum"
+  },
+  {
+    "abbr": "Zinc-c.",
+    "full_name": "Zincum Cyanatum"
+  },
+  {
+    "abbr": "Zinc-m.",
+    "full_name": "Zincum Muriaticum"
+  },
+  {
+    "abbr": "Zinc-ox.",
+    "full_name": "Zincum Oxydatum"
+  },
+  {
+    "abbr": "Zinc-s.",
+    "full_name": "Zincum Sulphuricum"
+  },
+  {
+    "abbr": "Zinc.",
+    "full_name": "Zincum Metallicum"
+  },
+  {
+    "abbr": "Zing.",
+    "full_name": "Zingiber"
+  },
+  {
+    "abbr": "Ziz.",
+    "full_name": "Zizia Aurea"
+  }
+]

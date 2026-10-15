@@ -6,13 +6,9 @@ dist/
 
 # Local databases and caches
 kent_vector_cache/
-# kent_lancedb/
-kent_output/
 
-
-# Legacy raw scraped data (already parsed into kent_output)
+# Legacy raw scraped data
 kent_raw_html/
-kent_output/
 
 
 # System & Editor

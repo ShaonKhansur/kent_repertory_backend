@@ -120,7 +120,8 @@ export class DatasetService {
     if (this.isLoaded) return;
 
     if (!fs.existsSync(CONFIG.jsonlPath)) {
-      throw new Error(`Kent repertory dataset not found at ${CONFIG.jsonlPath}`);
+      console.warn(`[DatasetService] Warning: Dataset file not found at ${CONFIG.jsonlPath}. Relying on LanceDB database.`);
+      return;
     }
 
     const fileStream = fs.createReadStream(CONFIG.jsonlPath);
