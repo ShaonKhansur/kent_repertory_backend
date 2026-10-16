@@ -37,6 +37,7 @@ export function createApp(): express.Application {
     res.json({
       name: "J.T. Kent's Repertory RAG & Clinical Assistant API",
       version: "1.0.0",
+      supabase_configured: Boolean(process.env.SUPABASE_URL && process.env.SUPABASE_KEY),
       docs: "/api/docs",
       health: "/api/health",
       endpoints: {
