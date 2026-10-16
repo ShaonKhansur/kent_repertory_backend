@@ -7,7 +7,7 @@
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "tsc && cp -r src/swagger dist/ && tsx src/scripts/download_model.ts",
-    "start": "node dist/server.js",
+    "start": "node --max-old-space-size=256 dist/server.js",
     "ingest:lancedb": "tsx src/scripts/ingest_lancedb.ts",
     "ingest:supabase": "tsx src/scripts/ingest_supabase.ts",
     "check": "tsx src/scripts/verify_and_query.ts --check",

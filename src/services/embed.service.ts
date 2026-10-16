@@ -1,4 +1,9 @@
-import { pipeline } from "@xenova/transformers";
+import { pipeline, env } from "@xenova/transformers";
+
+// Restrict ONNX to 1 thread to prevent thread-pool memory explosion on cloud container hosts
+if (env?.backends?.onnx?.wasm) {
+  env.backends.onnx.wasm.numThreads = 1;
+}
 
 export class LocalEmbeddingService {
   private static instance: LocalEmbeddingService;
@@ -20,7 +25,7 @@ export class LocalEmbeddingService {
 
     this.initPromise = (async () => {
       try {
-        // Load in-process ONNX model (quantized for low memory < 400MB and fast boot)
+        // Load in-process ONNX model (quantized for low memory < 320MB and fast boot)
         this.extractor = await pipeline("feature-extraction", this.modelName, { quantized: true });
       } catch (err) {
         console.error("Failed to initialize in-process embedding pipeline:", err);
