@@ -128,6 +128,99 @@ export class SupabaseService {
     });
   }
 
+  /**
+   * Fast, zero-memory text & modality search directly executed inside Supabase PostgreSQL.
+   * Runs in ~50ms without requiring ONNX neural models in server RAM.
+   */
+  public async searchByText(params: {
+    query: string;
+    chapters?: string[];
+    topK: number;
+  }): Promise<SearchedRubricItem[]> {
+    const client = this.getClient();
+    const { query, chapters, topK } = params;
+
+    const queryLower = query.toLowerCase().trim();
+    const stopWords = new Set(["the", "and", "for", "with", "from", "after", "before", "during", "agg", "amel"]);
+    const modalities = new Set(["evening", "morning", "night", "day", "afternoon", "noon", "bed", "sleep", "rest", "motion", "walking", "open air", "eating"]);
+
+    const allTerms = queryLower
+      .split(/\s+/)
+      .map((t) => t.replace(/[^a-z0-9]/g, ""))
+      .filter((t) => t.length > 2 && !stopWords.has(t));
+
+    if (allTerms.length === 0) return [];
+
+    // Prioritize specific symptom keywords over generic modalities so LIMIT doesn't exhaust early
+    const specificTerms = allTerms.filter((t) => !modalities.has(t));
+    const searchTerms = specificTerms.length > 0 ? specificTerms : allTerms;
+
+    let queryBuilder = client
+      .from("rubrics")
+      .select("id, rubric_path, rubric_label, chapter, page, author, source_url, depth, remedy_count, remedies, immediate_child_rubrics");
+
+    if (chapters && chapters.length > 0 && chapters.length < 37) {
+      queryBuilder = queryBuilder.in("chapter", chapters);
+    }
+
+    const orConditions = searchTerms.map((t) => `rubric_path.ilike.%${t}%`).join(",");
+    queryBuilder = queryBuilder.or(orConditions).limit(Math.max(topK * 6, 60));
+
+    const { data, error } = await queryBuilder;
+    if (error || !data || data.length === 0) {
+      return [];
+    }
+
+    const scored = (data as SupabaseRubricRow[]).map((r) => {
+      const pathLower = (r.rubric_path || "").toLowerCase();
+      const labelLower = (r.rubric_label || "").toLowerCase();
+
+      let score = 0;
+
+      // Full phrase exact match
+      if (pathLower.includes(queryLower)) {
+        score += 0.5;
+      }
+
+      // Leaf rubric match
+      if (labelLower === queryLower) {
+        score += 0.3;
+      } else if (labelLower.includes(queryLower)) {
+        score += 0.15;
+      }
+
+      // Specific term hits (+0.4)
+      let hitCount = 0;
+      for (const t of allTerms) {
+        if (pathLower.includes(t)) hitCount++;
+      }
+      score += (hitCount / allTerms.length) * 0.4;
+
+      // Remedy count presence boost
+      if ((r.remedy_count ?? 0) > 0) {
+        score += 0.05;
+      }
+
+      return {
+        id: r.id,
+        rubric_path: r.rubric_path,
+        rubric_label: r.rubric_label,
+        chapter: r.chapter,
+        page: r.page,
+        author: r.author,
+        source_url: r.source_url,
+        depth: r.depth,
+        similarity_score: parseFloat(score.toFixed(4)),
+        remedy_count: r.remedy_count,
+        remedies: Array.isArray(r.remedies) ? r.remedies : [],
+        immediate_child_rubrics: Array.isArray(r.immediate_child_rubrics) ? r.immediate_child_rubrics : [],
+      };
+    });
+
+    scored.sort((a, b) => b.similarity_score - a.similarity_score);
+    return scored.slice(0, topK);
+  }
+
   public async getRubricsByIds(ids: string[]): Promise<Rubric[]> {
     const client = this.getClient();
     const { data, error } = await client

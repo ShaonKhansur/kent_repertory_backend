@@ -2,6 +2,7 @@ import { Remedy } from "./rubric.types.js";
 
 export interface SearchRequest {
   query: string;
+  query_vector?: number[];
   chapters?: string[] | string;
   chapter?: string;
   topK?: number;

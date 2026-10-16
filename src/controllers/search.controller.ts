@@ -67,7 +67,7 @@ export async function searchHandler(
   res: Response
 ): Promise<void> {
   try {
-    const { query, chapters, chapter, topK } = req.body;
+    const { query, chapters, chapter, topK, query_vector } = req.body;
 
     if (!query || typeof query !== "string" || !query.trim()) {
       res.status(400).json({ error: "Missing or invalid 'query' parameter." });
@@ -94,19 +94,33 @@ export async function searchHandler(
     const lanceService = LanceDBService.getInstance();
     let rubrics: SearchedRubricItem[] = [];
 
-    // 1. Vector Search via Supabase pgvector
+    // 1. Search via Supabase (Cloud & Production default)
     if (isSupabaseReady) {
-      try {
-        const embedService = LocalEmbeddingService.getInstance();
-        const queryVec = await embedService.embedQuery(query.trim());
-        rubrics = await supabaseService.search({
-          query: query.trim(),
-          queryVector: queryVec,
-          chapters: targetChapters,
-          topK: limit,
-        });
-      } catch (err) {
-        console.warn("Supabase vector search error, falling back to local database:", err);
+      // 1A. If client passed query_vector (e.g. from browser WASM / Ollama), use vector similarity RPC
+      if (Array.isArray(query_vector) && query_vector.length > 0) {
+        try {
+          rubrics = await supabaseService.search({
+            query: query.trim(),
+            queryVector: query_vector,
+            chapters: targetChapters,
+            topK: limit,
+          });
+        } catch (err) {
+          console.warn("Supabase vector search error, falling back:", err);
+        }
+      }
+
+      // 1B. If no vector passed, execute zero-memory Supabase text & modality search directly in PostgreSQL
+      if (rubrics.length === 0) {
+        try {
+          rubrics = await supabaseService.searchByText({
+            query: query.trim(),
+            chapters: targetChapters,
+            topK: limit,
+          });
+        } catch (err) {
+          console.warn("Supabase text search error, falling back:", err);
+        }
       }
     }
 
