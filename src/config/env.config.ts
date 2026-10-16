@@ -1,3 +1,4 @@
+import "dotenv/config";
 import path from "path";
 import { fileURLToPath } from "url";
 
@@ -7,6 +8,8 @@ const rootDir = path.resolve(__dirname, "../../");
 
 export const CONFIG = {
   port: parseInt(process.env.PORT || "3000", 10),
+  supabaseUrl: process.env.SUPABASE_URL || "",
+  supabaseKey: process.env.SUPABASE_KEY || "",
   jsonlPath: process.env.JSONL_PATH || path.resolve(rootDir, "kent_output", "kent_repertory_full.jsonl"),
   vectorCacheDir: process.env.VECTOR_CACHE_DIR || path.resolve(rootDir, "kent_vector_cache"),
   lanceDbDir: process.env.LANCEDB_DIR || path.resolve(rootDir, "kent_lancedb"),

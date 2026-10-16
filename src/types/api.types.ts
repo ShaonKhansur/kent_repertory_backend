@@ -82,6 +82,11 @@ export interface HealthResponse {
     total_rubrics: number;
     table: string;
   };
+  supabase?: {
+    configured: boolean;
+    available: boolean;
+    total_rubrics: number;
+  };
   ollama?: {
     connected: boolean;
     url?: string;

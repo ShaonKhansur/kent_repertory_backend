@@ -2,6 +2,7 @@ import { Request, Response } from "express";
 import { DatasetService } from "../services/dataset.service.js";
 import { LocalEmbeddingService } from "../services/embed.service.js";
 import { LanceDBService } from "../services/lancedb.service.js";
+import { SupabaseService } from "../services/supabase.service.js";
 import { SearchRequest, SearchResponse, SearchedRubricItem } from "../types/api.types.js";
 import { RubricMetadata, Document } from "../types/rubric.types.js";
 import { SearchResult } from "../types/vector.types.js";
@@ -89,13 +90,30 @@ export async function searchHandler(
       return;
     }
 
-    const lanceService = LanceDBService.getInstance();
-    const isLanceReady = await lanceService.isReady();
+    const supabaseService = SupabaseService.getInstance();
+    const isSupabaseReady = await supabaseService.isReady();
 
+    const lanceService = LanceDBService.getInstance();
     let rubrics: SearchedRubricItem[] = [];
 
-    // 1. Primary Vector Search via local LanceDB (with in-process embedder)
-    if (isLanceReady) {
+    // 1. Vector Search via Supabase pgvector
+    if (isSupabaseReady) {
+      try {
+        const embedService = LocalEmbeddingService.getInstance();
+        const queryVec = await embedService.embedQuery(query.trim());
+        rubrics = await supabaseService.search({
+          query: query.trim(),
+          queryVector: queryVec,
+          chapters: targetChapters,
+          topK: limit,
+        });
+      } catch (err) {
+        console.warn("Supabase vector search error, falling back to local database:", err);
+      }
+    }
+
+    // 2. Vector Search via local LanceDB (if Supabase not ready or returned 0)
+    if (rubrics.length === 0 && (await lanceService.isReady())) {
       try {
         const embedService = LocalEmbeddingService.getInstance();
         const queryVec = await embedService.embedQuery(query.trim());

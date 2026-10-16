@@ -4,6 +4,7 @@ import { CONFIG } from "../config/env.config.js";
 import { DatasetService } from "../services/dataset.service.js";
 import { LocalEmbeddingService } from "../services/embed.service.js";
 import { LanceDBService } from "../services/lancedb.service.js";
+import { SupabaseService } from "../services/supabase.service.js";
 import { HealthResponse } from "../types/api.types.js";
 
 export async function healthHandler(_req: Request, res: Response): Promise<void> {
@@ -39,11 +40,18 @@ export async function healthHandler(_req: Request, res: Response): Promise<void>
   const lanceService = LanceDBService.getInstance();
   const lanceReady = await lanceService.isReady();
   const lanceTotal = await lanceService.getRecordCount();
-  if (!lanceReady) {
-    errors.push("LanceDB table is not ready or has 0 records.");
+
+  // 4. Check Supabase pgvector database
+  const supabaseService = SupabaseService.getInstance();
+  const supabaseConfigured = await supabaseService.isConfigured();
+  const supabaseReady = await supabaseService.isReady();
+  const supabaseTotal = await supabaseService.getRecordCount();
+
+  if (!lanceReady && !supabaseReady) {
+    errors.push("Neither LanceDB nor Supabase vector database is ready.");
   }
 
-  const isHealthy = datasetAvailable && embedReady && lanceReady;
+  const isHealthy = embedReady && (lanceReady || supabaseReady);
   const response: HealthResponse = {
     status: isHealthy ? "healthy" : "unhealthy",
     dataset: {
@@ -61,6 +69,11 @@ export async function healthHandler(_req: Request, res: Response): Promise<void>
       available: lanceReady,
       total_rubrics: lanceTotal,
       table: CONFIG.lanceTableName,
+    },
+    supabase: {
+      configured: supabaseConfigured,
+      available: supabaseReady,
+      total_rubrics: supabaseTotal,
     },
     models: {
       embedding: embedService.modelName,

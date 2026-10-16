@@ -1,5 +1,6 @@
 import { Request, Response } from "express";
 import { DatasetService } from "../services/dataset.service.js";
+import { SupabaseService } from "../services/supabase.service.js";
 import { RepertorizationService } from "../services/repertorization.service.js";
 import { RepertorizeRequest } from "../types/api.types.js";
 import { Rubric } from "../types/rubric.types.js";
@@ -16,23 +17,45 @@ export async function repertorizeHandler(
       return;
     }
 
-    const dataset = DatasetService.getInstance();
-    await dataset.ensureLoaded();
+    const supabaseService = SupabaseService.getInstance();
+    const isSupabaseReady = await supabaseService.isReady();
 
     const selectedRubrics: Rubric[] = [];
 
-    if (rubric_ids && Array.isArray(rubric_ids)) {
-      for (const id of rubric_ids) {
-        const r = dataset.getRubricById(id);
-        if (r) selectedRubrics.push(r);
+    // 1. Try fetching from Supabase if configured and ready
+    if (isSupabaseReady) {
+      if (rubric_ids && rubric_ids.length > 0) {
+        const supaRubrics = await supabaseService.getRubricsByIds(rubric_ids);
+        selectedRubrics.push(...supaRubrics);
+      }
+      if (rubric_paths && rubric_paths.length > 0) {
+        const supaRubrics = await supabaseService.getRubricsByPaths(rubric_paths);
+        for (const r of supaRubrics) {
+          if (!selectedRubrics.some((existing) => existing.id === r.id)) {
+            selectedRubrics.push(r);
+          }
+        }
       }
     }
 
-    if (rubric_paths && Array.isArray(rubric_paths)) {
-      for (const p of rubric_paths) {
-        const r = dataset.getRubricByPath(p);
-        if (r && !selectedRubrics.some((existing) => existing.id === r.id)) {
-          selectedRubrics.push(r);
+    // 2. Fallback to local in-memory dataset
+    if (selectedRubrics.length === 0) {
+      const dataset = DatasetService.getInstance();
+      await dataset.ensureLoaded();
+
+      if (rubric_ids && Array.isArray(rubric_ids)) {
+        for (const id of rubric_ids) {
+          const r = dataset.getRubricById(id);
+          if (r) selectedRubrics.push(r);
+        }
+      }
+
+      if (rubric_paths && Array.isArray(rubric_paths)) {
+        for (const p of rubric_paths) {
+          const r = dataset.getRubricByPath(p);
+          if (r && !selectedRubrics.some((existing) => existing.id === r.id)) {
+            selectedRubrics.push(r);
+          }
         }
       }
     }
