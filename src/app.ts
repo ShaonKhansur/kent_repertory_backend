@@ -48,6 +48,35 @@ export function createApp(): express.Application {
     });
   });
 
+  // Diagnostic endpoint for Cloud Embedder
+  app.get("/api/test-embed", async (_req: Request, res: Response) => {
+    try {
+      const memBefore = process.memoryUsage();
+      const { LocalEmbeddingService } = await import("./services/embed.service.js");
+      const embed = LocalEmbeddingService.getInstance();
+      const vec = await embed.embedQuery("test");
+      const memAfter = process.memoryUsage();
+      res.json({
+        success: true,
+        dimensions: vec.length,
+        memBefore: {
+          rssMb: (memBefore.rss / 1024 / 1024).toFixed(1),
+          heapMb: (memBefore.heapUsed / 1024 / 1024).toFixed(1),
+        },
+        memAfter: {
+          rssMb: (memAfter.rss / 1024 / 1024).toFixed(1),
+          heapMb: (memAfter.heapUsed / 1024 / 1024).toFixed(1),
+        },
+      });
+    } catch (err: any) {
+      res.status(500).json({
+        success: false,
+        error: err?.message || String(err),
+        stack: err?.stack,
+      });
+    }
+  });
+
   // 404 Handler
   app.use((req: Request, res: Response) => {
     res.status(404).json({ error: `Route not found: ${req.method} ${req.originalUrl}` });
