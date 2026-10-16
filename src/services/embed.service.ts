@@ -20,8 +20,8 @@ export class LocalEmbeddingService {
 
     this.initPromise = (async () => {
       try {
-        // Load in-process ONNX model (zero external processes or daemons)
-        this.extractor = await pipeline("feature-extraction", this.modelName);
+        // Load in-process ONNX model (quantized for low memory < 400MB and fast boot)
+        this.extractor = await pipeline("feature-extraction", this.modelName, { quantized: true });
       } catch (err) {
         console.error("Failed to initialize in-process embedding pipeline:", err);
         this.initPromise = null;

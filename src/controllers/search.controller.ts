@@ -77,8 +77,6 @@ export async function searchHandler(
     const limit = Math.max(1, Math.min(100, typeof topK === "number" ? topK : parseInt(String(topK), 10) || 10));
 
     const dataset = DatasetService.getInstance();
-    await dataset.ensureLoaded();
-
     const rawChapters = chapters !== undefined && chapters !== null ? chapters : chapter;
     const targetChapters = dataset.normalizeChapters(rawChapters);
 
@@ -130,6 +128,7 @@ export async function searchHandler(
 
     // 2. Resilient Lexical Fallback if LanceDB had 0 matches or is not yet ingested
     if (rubrics.length === 0) {
+      await dataset.ensureLoaded();
       const lexicalMatches: SearchResult[] = [];
       for (const normChapter of targetChapters) {
         const docs = dataset.getDocumentsForChapter(normChapter);

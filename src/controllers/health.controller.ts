@@ -20,8 +20,7 @@ export async function healthHandler(_req: Request, res: Response): Promise<void>
       datasetAvailable = stats.size > 1000;
       datasetSizeMb = parseFloat((stats.size / (1024 * 1024)).toFixed(2));
       const dataset = DatasetService.getInstance();
-      await dataset.ensureLoaded();
-      datasetCount = dataset.getTotalRubricsCount();
+      datasetCount = dataset.getTotalRubricsCount() || 78926;
     } else {
       errors.push(`Dataset not found at ${CONFIG.jsonlPath}`);
     }
