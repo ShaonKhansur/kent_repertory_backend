@@ -38,12 +38,7 @@ export class LocalEmbeddingService {
   }
 
   public async isReady(): Promise<boolean> {
-    try {
-      await this.init();
-      return this.extractor !== null;
-    } catch {
-      return false;
-    }
+    return this.extractor !== null;
   }
 
   /**

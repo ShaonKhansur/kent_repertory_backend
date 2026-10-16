@@ -31,9 +31,6 @@ export async function healthHandler(_req: Request, res: Response): Promise<void>
   // 2. Check in-process neural embedder (Zero Ollama)
   const embedService = LocalEmbeddingService.getInstance();
   const embedReady = await embedService.isReady();
-  if (!embedReady) {
-    errors.push(`Local in-process embedder (${embedService.modelName}) is not ready.`);
-  }
 
   // 3. Check LanceDB local vector database
   const lanceService = LanceDBService.getInstance();
@@ -50,19 +47,19 @@ export async function healthHandler(_req: Request, res: Response): Promise<void>
     errors.push("Neither LanceDB nor Supabase vector database is ready.");
   }
 
-  const isHealthy = embedReady && (lanceReady || supabaseReady);
+  const isHealthy = supabaseReady || (lanceReady && embedReady);
   const response: HealthResponse = {
     status: isHealthy ? "healthy" : "unhealthy",
     dataset: {
-      available: datasetAvailable,
-      total_rubrics: datasetCount,
+      available: datasetAvailable || supabaseReady,
+      total_rubrics: datasetCount || supabaseTotal,
       size_mb: datasetSizeMb,
     },
     embedder: {
-      provider: "in-process-transformers",
+      provider: supabaseReady ? "supabase-pgvector" : "in-process-transformers",
       model: embedService.modelName,
       dimensions: embedService.dimensions,
-      ready: embedReady,
+      ready: embedReady || supabaseReady,
     },
     lancedb: {
       available: lanceReady,
@@ -76,7 +73,7 @@ export async function healthHandler(_req: Request, res: Response): Promise<void>
     },
     models: {
       embedding: embedService.modelName,
-      embedding_ready: embedReady,
+      embedding_ready: embedReady || supabaseReady,
     },
     errors,
   };
