@@ -1,5 +1,6 @@
 import { createApp } from "./app.js";
 import { CONFIG } from "./config/env.config.js";
+import { LocalEmbeddingService } from "./services/embed.service.js";
 
 const app = createApp();
 const port = CONFIG.port;
@@ -15,6 +16,11 @@ const server = app.listen(port, "0.0.0.0", () => {
   console.log(`  ❓ Clarify Endpoint:    POST http://localhost:${port}/api/clarify`);
   console.log(`  📊 Repertorize Matrix:  POST http://localhost:${port}/api/repertorize`);
   console.log(`======================================================\n`);
+
+  // Warm up embedding model in background so the very first search query is instant
+  LocalEmbeddingService.getInstance().init().catch((err) => {
+    console.warn("Embedder warmup warning:", err);
+  });
 });
 
 function handleShutdown(signal: string) {
